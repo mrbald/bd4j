@@ -23,7 +23,7 @@ A single calculation is synthetically adjusted to take 5 seconds to highlight th
 
 Command:
 ```bash
-$ mvn exec:java -DexperimentId=CACHED_POOLED
+$ mvn exec:java -Dexperiment=CACHED_POOLED
 ```
 
 Output:
@@ -61,7 +61,7 @@ Output:
 
 Command:
 ```bash
-$ mvn exec:java -DexperimentId=CACHED
+$ mvn exec:java -Dexperiment=CACHED
 ```
 
 Output:
@@ -95,7 +95,7 @@ Output:
 
 Command:
 ```bash
-$ mvn exec:java -DexperimentId=DIRECT
+$ mvn exec:java -Dexperiment=DIRECT
 ```
 
 Output:
