@@ -1,11 +1,11 @@
-package net.bobah.bd4j;
+package net.bobah.bd4j.cfg;
 
 import com.google.inject.AbstractModule;
-
-import java.util.concurrent.ScheduledExecutorService;
+import net.bobah.bd4j.CachedCalc;
+import net.bobah.bd4j.DirectCalc;
+import net.bobah.bd4j.ICalc;
 
 import static com.google.inject.name.Names.named;
-import static java.util.concurrent.Executors.newScheduledThreadPool;
 
 public final class WithCachedCalc extends AbstractModule {
     @Override

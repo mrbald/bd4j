@@ -2,6 +2,9 @@ package net.bobah.bd4j;
 
 import com.google.inject.Guice;
 import com.google.inject.Module;
+import net.bobah.bd4j.cfg.WithCachedCalc;
+import net.bobah.bd4j.cfg.WithCachedPooledCalc;
+import net.bobah.bd4j.cfg.WithDirectCalc;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
